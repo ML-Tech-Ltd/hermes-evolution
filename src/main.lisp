@@ -1,6 +1,6 @@
-(defpackage overmind-evolution
+(defpackage hermes-evolution
   (:use :cl
-	:overmind-evolution.config)
+	:hermes-evolution.config)
   (:export :reproduce
 	   :distribution
 	   :selectone
@@ -8,7 +8,7 @@
 	   :mutate
 	   :fitness
            ))
-(in-package :overmind-evolution)
+(in-package :hermes-evolution)
 
 (defun reproduce (population) 
   (let ((offspring nil)

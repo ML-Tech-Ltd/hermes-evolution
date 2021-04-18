@@ -1,4 +1,4 @@
-(defpackage overmind-evolution
+(defpackage hermes-evolution
   (:use :cl)
   (:export :reproduce
 	   :distribution
@@ -7,5 +7,5 @@
 	   :mutate
 	   :fitness
            ))
-(in-package :overmind-evolution)
+(in-package :hermes-evolution)
 

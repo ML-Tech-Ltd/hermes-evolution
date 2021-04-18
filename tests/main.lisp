@@ -1,10 +1,10 @@
-(defpackage overmind-evolution/tests/main
+(defpackage hermes-evolution/tests/main
   (:use :cl
-        :overmind-evolution
+        :hermes-evolution
         :rove))
-(in-package :overmind-evolution/tests/main)
+(in-package :hermes-evolution/tests/main)
 
-;; NOTE: To run this test file, execute `(asdf:test-system :overmind-evolution)' in your Lisp.
+;; NOTE: To run this test file, execute `(asdf:test-system :hermes-evolution)' in your Lisp.
 
 (deftest test-target-1
   (testing "should (= 1 1) to be true"
